@@ -5,17 +5,17 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Your Collection";
-const description = "Remember to replace this description";
-const baseUri = "ipfs://NewUriToReplace";
+const namePrefix = "Mermaid Friends";
+const description = "Meet our friends at Sirens Treasure!";
+const baseUri = "ipfs://QmcCPpWTL4FxwqXPJLPqRxBiucUd4ZtEtN2tJN7F4mZT98";
 
 const solanaMetadata = {
-  symbol: "YC",
+  symbol: "MermaidFriends",
   seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
-  external_url: "https://www.youtube.com/c/hashlipsnft",
+  external_url: "https://www.youtube.com/channel/UCGYbs-aIG9qdKR3X3NiHw9Q",
   creators: [
     {
-      address: "7fXNuer5sbZtaTEPhtJ5g5gNtuyRoKkvxdjEjEnPN4mC",
+      address: "0x18Ff7f454B6A3233113f51030384F49054DD27BF",
       share: 100,
     },
   ],
@@ -24,15 +24,11 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 5,
+    growEditionSizeTo: 36,
     layersOrder: [
       { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
+      { name: "Item" },
+      { name: "logo" },
     ],
   },
 ];
