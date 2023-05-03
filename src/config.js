@@ -5,17 +5,17 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Mermaid Friends";
-const description = "Meet our friends at Sirens Treasure!";
+const namePrefix = "Lastman Holding";
+const description = "LastManHolding NFT will reward a random existing holder with 10% of the purchase price of last NFT sold. Every NFT purchased will reward a current holder randomly until there is only one left. The last NFT sold will earn a total of 10% (1.5BNB) of the entire treasury, total value of all the NFTS sold. Pricing is currently at base cost of 0.15BNB. Get in early to have more chances to be rewarded and remember! You can always have more than one, which means more chances for rewards. 1 Lastman NFT per transaction with no cap on qty per wallet. Enjoy the Ride!!";
 const baseUri = "ipfs://QmcCPpWTL4FxwqXPJLPqRxBiucUd4ZtEtN2tJN7F4mZT98";
 
 const solanaMetadata = {
   symbol: "MermaidFriends",
-  seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
-  external_url: "https://www.youtube.com/channel/UCGYbs-aIG9qdKR3X3NiHw9Q",
+  seller_fee_basis_points: 300, // Define how much % you want from secondary market sales 1000 = 10%
+  external_url: "https://lastmanstanding.info/",
   creators: [
     {
-      address: "0x18Ff7f454B6A3233113f51030384F49054DD27BF",
+      address: "0x102EE4DdeB7A95Ef9aaAecc14AB93363E3D9B5d5",
       share: 100,
     },
   ],
@@ -27,8 +27,8 @@ const layerConfigurations = [
     growEditionSizeTo: 36,
     layersOrder: [
       { name: "Background" },
-      { name: "Item" },
-      { name: "logo" },
+      { name: "Image" },
+      { name: "Quality" },
     ],
   },
 ];
