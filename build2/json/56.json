@@ -1,0 +1,23 @@
+{
+  "name": "Lastman Holding #56",
+  "description": "LastManHolding NFT will reward a random existing holder with 10% of the purchase price of last NFT sold. Every NFT purchased will reward a current holder randomly until there is only one left. The last NFT sold will earn a total of 10% (1.5BNB) of the entire treasury, total value of all the NFTS sold. Pricing is currently at base cost of 0.15BNB. Get in early to have more chances to be rewarded and remember! You can always have more than one, which means more chances for rewards. 1 Lastman NFT per transaction with no cap on qty per wallet. Enjoy the Ride!!",
+  "image": "ipfs://QmR8AMcuWLM5KrjCpwkvQY4QCT2jc1FVjpRmRXgEo1E8fw/56.png",
+  "dna": "60cf1f22d750a1ea6fc6480d9bbdd64e8a912572",
+  "edition": 56,
+  "date": 1683110141512,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Image",
+      "value": "Lastman"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Silver"
+    }
+  ],
+  "compiler": "Lastman Art Engine"
+}
